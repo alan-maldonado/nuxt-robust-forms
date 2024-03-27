@@ -27,6 +27,7 @@ async function handleSubmit(data) {
           submitLabel: 'Login',
           value: '$formData',
           bind: '$attrs',
+          plugins: [],
           children: [
             {
               $el: 'h1',
@@ -37,6 +38,7 @@ async function handleSubmit(data) {
               $formkit: 'text',
               label: 'Username',
               name: 'username',
+              help: 'Please fill out your username'
             },
             {
               $formkit: 'password',
