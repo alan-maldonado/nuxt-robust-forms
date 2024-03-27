@@ -14,6 +14,7 @@
     "@formkit/addons": "^1.6.1",
     "@formkit/nuxt": "^1.6.0",
     "@formkit/pro": "^0.122.11",
+    "@formkit/themes": "^1.6.1",
     "@nuxtjs/tailwindcss": "^6.11.4",
     "vue-multiselect": "^3.0.0-beta.3"
   }

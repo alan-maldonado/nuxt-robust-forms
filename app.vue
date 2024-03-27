@@ -31,6 +31,7 @@ async function handleSubmit(data) {
       type="text"
       label="Name"
       name="name"
+      validation="required"
     />
     <hr />
     <!-- <pre>{{  formDataPro }}</pre> -->
