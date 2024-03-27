@@ -6,7 +6,7 @@ import '@/formkit-plugins/tooltip-plugin/styles.css';
 // import '@formkit/pro/genesis';
 
 const config: DefaultConfigOptions = {
-  theme: 'genesis',
+  // theme: 'genesis',
   plugins: [
     createAutoAnimatePlugin(),
     createToolTipPlugin(),
