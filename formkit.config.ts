@@ -1,16 +1,16 @@
 import { DefaultConfigOptions } from '@formkit/vue';
-import { createProPlugin, inputs } from '@formkit/pro';
+// import { createProPlugin, inputs } from '@formkit/pro';
 import { createAutoAnimatePlugin } from '@formkit/addons';
 import createToolTipPlugin from './formkit-plugins/tooltip-plugin';
 import '@/formkit-plugins/tooltip-plugin/styles.css';
-import '@formkit/pro/genesis';
+// import '@formkit/pro/genesis';
 
 const config: DefaultConfigOptions = {
   theme: 'genesis',
   plugins: [
     createAutoAnimatePlugin(),
     createToolTipPlugin(),
-    createProPlugin('', inputs),
+    // createProPlugin('', inputs),
   ],
   rules: {
     username_is_unique: function (node) {

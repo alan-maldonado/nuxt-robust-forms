@@ -9,7 +9,7 @@ const formData = ref({
   password: '',
 });
 
-const formDataPro = ref([]);
+// const formDataPro = ref([]);
 
 async function handleSubmit(data) {
   await wait(3000);
@@ -18,8 +18,8 @@ async function handleSubmit(data) {
 </script>
 <template>
   <div>
-    <pre>{{  formDataPro }}</pre>
-    <FormKit
+    <!-- <pre>{{  formDataPro }}</pre> -->
+    <!-- <FormKit
       v-model="formDataPro"
       id="repeater"
       name="users"
@@ -35,7 +35,7 @@ async function handleSubmit(data) {
       />
       <FormKit type="text" label="Name" name="name" validation="required" />
       <FormKit type="toggle" name="toggle" label="Is Admin" />
-    </FormKit>
+    </FormKit> -->
     <FormKitSchema
       :data="{
         formData,
