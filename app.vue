@@ -57,7 +57,8 @@ async function handleSubmit(data) {
                 'Vue',
                 'React',
                 'Svelte'
-              ]
+              ],
+              multiple: true
             }
           ],
         },
