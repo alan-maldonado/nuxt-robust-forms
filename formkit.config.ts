@@ -8,6 +8,16 @@ const config: DefaultConfigOptions = {
       return !usernames.includes(node.value as string);
     },
   },
+
+  messages: {
+    en: {
+      validation: {
+        username_is_unique({ args, name, node }) {
+          return `${node.value} is already taken`;
+        },
+      },
+    },
+  },
 };
 
 export default config;
